@@ -1,4 +1,4 @@
-citra=imread('1.jpg');
+citra=imread('cacat (8).jpg');
 I=rgb2gray(citra);
 [G0, G45, G90, G135] = glcm(I);
 [tinggi, lebar] = size (I);

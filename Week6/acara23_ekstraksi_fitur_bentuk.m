@@ -1,4 +1,4 @@
-gambar = imread('1.jpg');
+gambar = imread('cacat (2).jpg');
 blue =gambar(:,:,3);
 [A, R] = size(blue);
 Seg = zeros(A,R);
